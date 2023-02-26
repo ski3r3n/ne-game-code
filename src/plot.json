@@ -1,0 +1,26 @@
+[{}, {
+    "heading": "The correct answer for this screen is 'a'. aaaQui enim irure non aute minim laboris ad ullamco minim eu aliqua veniam elit cupidatat.",
+    "text": "aaaLorem quis pariatur pariatur amet adipisicing esse aliqua ullamco in labore tempor. Dolore ea dolore ea minim eu aute ad aliquip sunt sit dolor dolor ad laborum. Ullamco labore nostrud ea fugiat cillum dolore enim pariatur labore cillum et excepteur. Nisi commodo culpa anim sint sunt aliqua duis elit nostrud ut adipisicing ullamco reprehenderit. Elit fugiat enim nostrud cillum veniam et. Non tempor laborum amet do irure ut consequat ex eiusmod.",
+    "correctAnswer": "a",
+    "screenTo": 2
+}, {
+    "heading": "bbbQui enim irure non aute minim laboris ad ullamco minim eu aliqua veniam elit cupidatat.",
+    "text": "bbbLorem quis pariatur pariatur amet adipisicing esse aliqua ullamco in labore tempor. Dolore ea dolore ea minim eu aute ad aliquip sunt sit dolor dolor ad laborum. Ullamco labore nostrud ea fugiat cillum dolore enim pariatur labore cillum et excepteur. Nisi commodo culpa anim sint sunt aliqua duis elit nostrud ut adipisicing ullamco reprehenderit. Elit fugiat enim nostrud cillum veniam et. Non tempor laborum amet do irure ut consequat ex eiusmod.",
+    "choices": [{
+        "label": "Go to screen 2",
+        "screenTo": 2
+    }, {
+        "label": "Go to screen 3",
+        "screenTo": 3
+    }]
+}, {
+    "heading": "cccQui enim irure non aute minim laboris ad ullamco minim eu aliqua veniam elit cupidatat.",
+    "text": "cccLorem quis pariatur pariatur amet adipisicing esse aliqua ullamco in labore tempor. Dolore ea dolore ea minim eu aute ad aliquip sunt sit dolor dolor ad laborum. Ullamco labore nostrud ea fugiat cillum dolore enim pariatur labore cillum et excepteur. Nisi commodo culpa anim sint sunt aliqua duis elit nostrud ut adipisicing ullamco reprehenderit. Elit fugiat enim nostrud cillum veniam et. Non tempor laborum amet do irure ut consequat ex eiusmod.",
+    "choices": [{
+        "label": "Go to screen 2",
+        "screenTo": 2
+    }, {
+        "label": "Go to screen 1",
+        "screenTo": 1
+    }]
+}]

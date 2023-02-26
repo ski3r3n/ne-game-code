@@ -1,0 +1,151 @@
+[{}, {
+    "heading": "After school, when you reach home, you pull out your laptop and began checking through your email.",
+    "choices": [{
+        "label": "Ok...",
+        "screenTo": 2
+    }],
+    "backgroundImgPath": "images/scam.jpeg"
+}, {
+    "heading": "While checking through your email, you see this:",
+    "text": "👯Hi👩‍👩‍👧 there,  we've taken notice of your work experiences and resume listed on multiple online agencies such as LinkedIn, Jobstreet & Fastjobs. We're keen to offer you something on a part time basis that you could do in your free time. The daily wage could go as high as up to $600/day. Not only this but we will settle all wages on the day itself. If your keen to take up the offer, please click the link below for more information. If your using an android device reply \"1\" to subscribe <link redacted>",
+    "choices": [{
+        "label": "Click on the link",
+        "screenTo": -1,
+        "endMessage": "When you log back in the next day, you notice that your computer cannot boot. Turns out, a hacker PWNed into your computer and proceeded to extract all your files before  deleting system32."
+    }, {
+        "label": "Don't click on the link",
+        "screenTo": 3
+    }],
+    "backgroundImgPath": "images/scam.jpeg"
+}, {
+    "heading": "You mark the email as spam. After checking through your email, you are bored so you decide to scroll through Whatsapp.",
+    "text": "<b>Family</b><br>Today<br><br><b>老爸</b><br>Forwarded<br>今天是六月初六，据说这一天是一年之中阳气最旺的日子！中午一定要出外晒太阳三十分钟！ 记得要分享！祝福大家龙体安康~<br><br><b>老爸</b><br>等一下提醒我<br><br>What do you reply?",
+    "choices": [{
+        "label": "好的。",
+        "screenTo": -1,
+        "endMessage": "Your family went out to 晒太阳, only to get sunburnt and increased risk of skin cancer."
+    }, {
+        "label": "确定是真的吗？",
+        "screenTo": 4
+    }, {
+        "label": "从哪里来的？",
+        "screenTo": 15
+    }]
+}, {
+    "heading": "老爸<br>应该是真的，好朋友发的。",
+    "text": "What do you reply?",
+    "choices": [{
+        "label": "不一定是真的。",
+        "screenTo": 5
+    }, {
+        "label": "应该OK。",
+        "screenTo": -1,
+        "endMessage": "Your family went out to 晒太阳, only to get sunburnt and increased risk of skin cancer."
+    }]
+}, {
+    "heading": "老爸<br>好的",
+    "choices": [{
+        "label": "Good job! You prevented your father from falling for fake news online!",
+        "screenTo": 16
+    }]
+}, {
+    "heading": "Classmate A<br>why ah",
+    "text": "What do you reply?",
+    "choices": [{
+        "label": "you guys spamming quite a lot, can just DM",
+        "screenTo": 7
+    }, {
+        "label": "just like can you not",
+        "screenTo": 8
+    }]
+}, {
+    "heading": "Classmate B<br>ok",
+    "choices": [{
+        "label": "Next",
+        "screenTo": -2,
+        "endMessage": "It worked. Yay"
+    }]
+}, {
+    "heading": "Classmate B<br>why must I not",
+    "choices": [{
+        "label": "Next",
+        "screenTo": -1,
+        "endMessage": "Pro tip: Don't aggro someone who is already aggro"
+    }]
+}, {
+    "heading": "Classmate A<br>his problem<br><br>Classmate B<br>no bruh is you never do",
+    "choices": [{
+        "label": "Next",
+        "screenTo": -1,
+        "endMessage": "Somehow, the argument got even worse, and the next day you see 1784 missed messages from the same 2 people, including certain insults."
+    }]
+}, {
+    "heading": "Classmate A<br>bruh<br><br>Classmate B<br>bruh",
+    "choices": [{
+        "label": "Next",
+        "screenTo": -2,
+        "endMessage": "I mean, it technically worked? But it's not optimal"
+    }]
+}, {
+    "heading": "This actually works, but how do I continue the plot from here? Go try something else",
+    "choices": [{
+        "label": "Go back",
+        "screenTo": 5
+    }]
+}, {
+    "heading": "Classmate A<br>wait",
+    "choices": [{
+        "label": "Next",
+        "screenTo": -2,
+        "endMessage": "I think that worked immediately"
+    }]
+}, {
+    "heading": "Classmate A<br>he keep spamming me<br><br>Classmate B<br>no its his problem",
+    "text": "What do you reply?",
+    "choices": [{
+        "label": "can we like stop for a while and chill",
+        "screenTo": 14
+    }, {
+        "label": "bruh can you guys not just pause",
+        "screenTo": 9
+    }]
+}, {
+    "heading": "Classmate A<br>ok fine discuss later privately<br><br>Classmate B<br>ok",
+    "choices": [{
+        "label": "Next",
+        "screenTo": -2,
+        "endMessage": "It worked. Also, in the end, they handled it properly."
+    }]
+}, {
+    "heading": "老爸<br>中年人休闲中心的人转发的。",
+    "text": "What do you reply?",
+    "choices": [{
+        "label": "你确定是真的吗？",
+        "screenTo": 5
+    }, {
+        "label": "那应该OK。",
+        "screenTo": -1,
+        "endMessage": "Your family went out to 晒太阳, only to get sunburnt and increased risk of skin cancer."
+    }]
+}, {
+    "heading": "However, as someone probably once said, \"一波还未平息，一波又来侵袭\". You notice 387 missed messages in your class chat. Turns out, 2 of your classmates are arguing over PW in the class chat. What do you send?",
+    "choices": [{
+        "label": "can you like not spam in the class chat",
+        "screenTo": 6
+    }, {
+        "label": "bruh why are you guys arguing over this kind of stuff",
+        "screenTo": 9
+    }, {
+        "label": "shaddup please thnx (Note: the use of the word \"shaddup\" here is a replacement of something considered as rude)",
+        "screenTo": 10
+    }, {
+        "label": "[Don't send anything, you've been on social media for too long]",
+        "screenTo": 11    
+    }, {
+        "label": "can you guys like move this convo into your pw chat",
+        "screenTo": 12
+    }, {
+        "label": "wait can we like not argue just talk nicely",
+        "screenTo": 13
+    }]
+}]

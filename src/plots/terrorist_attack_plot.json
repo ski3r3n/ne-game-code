@@ -1,0 +1,151 @@
+[{}, {
+	"heading": "Mother: \"Wake up! It's already 6:30, you're going to be late for school! You've been late 4 times this week already. You don't want a 5th demerit point, do you?\"",
+	"choices": [{
+		"label": "Rush out of bed and go to school on time",
+		"screenTo": 2
+	}, {
+		"label": "Ignore mother",
+		"screenTo": -1,
+		"endMessage": "You reached school late and got a 5th demerit point in a week! Try again..."
+	}],
+	"backgroundImgPath": "images/bedroom.jpeg"
+}, {
+	"heading": "[train arrives]",
+	"choices": [{
+		"label": "Go to the front carriage",
+		"screenTo": 16
+	}, {
+		"label": "Go to the middle carriage",
+		"screenTo": 14
+	}],
+	"backgroundImgPath": "images/mrtstation.jpeg"
+}, {
+	"heading": "Something lifted you off the ground; you feel a very strong slap in the face, and you fall. You hear a beep. There is dust. You cannot open your eyes. The train continues moving.",
+	"choices": [{
+		"label": "Next",
+		"screenTo": 4
+	}],
+	"backgroundImgPath": "images/explosion.jpeg"
+}, {
+	"heading": "You realise a bomb has just gone off. As the dust slowly clears, the train comes to a halt. You panic.",
+	"text": "Me (thinking): \"Oh no, what should I do?\"",
+	"choices": [{
+		"label": "Continue screaming",
+		"screenTo": -1,
+		"endMessage": "Everyone on the train gets frightened and more casualties are produced because timely help was not rendered."
+	}, {
+		"label": "Use Dr Chew's mindfulness techniques to stay calm",
+		"screenTo": 5
+	}]
+}, {
+	"heading": "Me (thinking): \"All right, this is a horrendous situation, but I need to keep calm. What should I be doing now?\"",
+	"text": "You look around for things to do, and see 3 possibilities.",
+	"choices": [{
+		"label": "Use the emergency communication system to call the control centre",
+		"screenTo": 6
+	}, {
+		"label": "Use your phone to call somebody",
+		"screenTo": 11
+	}, {
+		"label": "Try to exit the train",
+		"screenTo": -1,
+		"endMessage": "More casualties were produced as nobody promptly called for help, stripping victims of the opportunity to receive timely treatment."
+	}]
+}, {
+	"heading": "Me: \"Help, there was an explosion in the train and many people are injured. Please send help.\"",
+	"text": "Me (thinking): \"Ok, most people are out of the train already. I should probably get out now.\"",
+	"choices": [{
+		"label": "Help another person to the emergency exit",
+		"screenTo": 7
+	}, {
+		"label": "Head straight to the emergency exit",
+		"screenTo": -1,
+		"endMessage": "More casualties were produced as nobody promptly called for help, stripping victims of the opportunity to receive timely treatment."
+	}]
+}, {
+	"heading": "You walk to a person who looks like he is unconscious",
+	"text": "What do you do now?",
+	"choices": [{
+		"label": "Perform resurrection first",
+		"screenTo": 8
+	}, {
+		"label": "Check for consciousness",
+		"screenTo": 8
+	}]
+}, {
+	"heading": "Now you see someone else, and when you check, he is unconscious and not breathing",
+	"text": "What do you do to help him (open ended 3 letter answer)",
+	"correctAnswer": ["CPR"],
+	"screenTo": 9
+}, {
+	"heading": "You perform CPR. Someone brings over an AED.",
+	"text": "What do you do?",
+	"choices": [{
+		"label": "Continue doing CPR first",
+		"screenTo": 13
+	}, {
+		"label": "Use the AED",
+		"screenTo": 10
+	}],
+	"backgroundImgPath": "images/aed.jpeg"
+}, {
+	"heading": "After cycling through the AED and CPR cycle, the person wakes up after 10 minutes.",
+	"text": "Now you exit, since everyone else looks alive",
+	"choices": [{
+		"label": "Next",
+		"screenTo": -2,
+		"endMessage": "You did it! You managed to survive the terrorist attack."
+	}]
+}, {
+	"heading": "[you take out your phone]",
+	"text": "Me (thinking): \"Hmmm, what is the right number to call again?\"",
+	"correctAnswer": ["995", "999"],
+	"screenTo": 12
+}, {
+	"heading": "Me (thinking): All right, help should be on the way now. I think I should do something else.",
+	"choices": [{
+		"label": "Help another person to the emergency exit",
+		"screenTo": 7
+	}, {
+		"label": "Head straight to the emergency exit",
+		"screenTo": -2,
+		"endMessage": "You did it! You managed to survive the terrorist attack."
+	}]
+}, {
+	"heading": "You perform CPR. Someone brings over an AED.",
+	"text": "Time passed, what now?",
+	"choices": [{
+		"label": "Continue doing CPR",
+		"screenTo": 13
+	}, {
+		"label": "Use the AED",
+		"screenTo": 10
+	}]
+}, {
+	"heading": "In the first carriage, you hear a booming roar coming from the middle carriages. You are momentarily thrown off your feet. You hear screams while you begin to be engulfed in darkness.",
+	"text": "Me: (thinking): \"What is going on? What should I do?\"",
+	"choices": [{
+		"label": "Go and check what happened",
+		"screenTo": 4
+	}, {
+		"label": "Stay in the middle carriage",
+		"screenTo": 15
+	}]
+}, {
+	"heading": "In the first carriage, you hear a booming roar coming from the middle carriages. You are momentarily thrown off your feet. You hear screams while you begin to be engulfed in darkness.",
+	"text": "You waited for a while, but nothing happened",
+	"choices": [{
+		"label": "Go and check what happened",
+		"screenTo": 4
+	}, {
+		"label": "Stay in the middle carriage",
+		"screenTo": 15
+	}]
+}, {
+	"heading": "\"Next station, Tan Kah Kee\", you hear from the announcement system. Suddenly, you hear a loud explosion.",
+	"choices": [{
+		"label": "Next",
+		"screenTo": 3
+	}],
+	"backgroundImgPath": "images/explosion.jpeg"
+}]
