@@ -1,151 +1,58 @@
 [{}, {
-	"heading": "Mother: \"Wake up! It's already 6:30, you're going to be late for school! You've been late 4 times this week already. You don't want a 5th demerit point, do you?\"",
+	"heading": "一个风和日丽、凉风习习的早上, Da Ming is still sleeping, but then the alarm rings. Should he wake up?",
 	"choices": [{
-		"label": "Rush out of bed and go to school on time",
+		"label": "Yes",
 		"screenTo": 2
-	}, {
-		"label": "Ignore mother",
-		"screenTo": -1,
-		"endMessage": "You reached school late and got a 5th demerit point in a week! Try again..."
-	}],
-	"backgroundImgPath": "images/bedroom.jpeg"
-}, {
-	"heading": "[train arrives]",
-	"choices": [{
-		"label": "Go to the front carriage",
-		"screenTo": 16
-	}, {
-		"label": "Go to the middle carriage",
-		"screenTo": 14
-	}],
-	"backgroundImgPath": "images/mrtstation.jpeg"
-}, {
-	"heading": "Something lifted you off the ground; you feel a very strong slap in the face, and you fall. You hear a beep. There is dust. You cannot open your eyes. The train continues moving.",
-	"choices": [{
-		"label": "Next",
-		"screenTo": 4
-	}],
-	"backgroundImgPath": "images/explosion.jpeg"
-}, {
-	"heading": "You realise a bomb has just gone off. As the dust slowly clears, the train comes to a halt. You panic.",
-	"text": "Me (thinking): \"Oh no, what should I do?\"",
-	"choices": [{
-		"label": "Continue screaming",
-		"screenTo": -1,
-		"endMessage": "Everyone on the train gets frightened and more casualties are produced because timely help was not rendered."
-	}, {
-		"label": "Use Dr Chew's mindfulness techniques to stay calm",
-		"screenTo": 5
-	}]
-}, {
-	"heading": "Me (thinking): \"All right, this is a horrendous situation, but I need to keep calm. What should I be doing now?\"",
-	"text": "You look around for things to do, and see 3 possibilities.",
-	"choices": [{
-		"label": "Use the emergency communication system to call the control centre",
-		"screenTo": 6
-	}, {
-		"label": "Use your phone to call somebody",
-		"screenTo": 11
-	}, {
-		"label": "Try to exit the train",
-		"screenTo": -1,
-		"endMessage": "More casualties were produced as nobody promptly called for help, stripping victims of the opportunity to receive timely treatment."
-	}]
-}, {
-	"heading": "Me: \"Help, there was an explosion in the train and many people are injured. Please send help.\"",
-	"text": "Me (thinking): \"Ok, most people are out of the train already. I should probably get out now.\"",
-	"choices": [{
-		"label": "Help another person to the emergency exit",
-		"screenTo": 7
-	}, {
-		"label": "Head straight to the emergency exit",
-		"screenTo": -1,
-		"endMessage": "More casualties were produced as nobody promptly called for help, stripping victims of the opportunity to receive timely treatment."
-	}]
-}, {
-	"heading": "You walk to a person who looks like he is unconscious",
-	"text": "What do you do now?",
-	"choices": [{
-		"label": "Perform resurrection first",
-		"screenTo": 8
-	}, {
-		"label": "Check for consciousness",
-		"screenTo": 8
-	}]
-}, {
-	"heading": "Now you see someone else, and when you check, he is unconscious and not breathing",
-	"text": "What do you do to help him (open ended 3 letter answer)",
-	"correctAnswer": ["CPR"],
-	"screenTo": 9
-}, {
-	"heading": "You perform CPR. Someone brings over an AED.",
-	"text": "What do you do?",
-	"choices": [{
-		"label": "Continue doing CPR first",
-		"screenTo": 13
-	}, {
-		"label": "Use the AED",
-		"screenTo": 10
-	}],
-	"backgroundImgPath": "images/aed.jpeg"
-}, {
-	"heading": "After cycling through the AED and CPR cycle, the person wakes up after 10 minutes.",
-	"text": "Now you exit, since everyone else looks alive",
-	"choices": [{
-		"label": "Next",
-		"screenTo": -2,
-		"endMessage": "You did it! You managed to survive the terrorist attack."
-	}]
-}, {
-	"heading": "[you take out your phone]",
-	"text": "Me (thinking): \"Hmmm, what is the right number to call again?\"",
-	"correctAnswer": ["995", "999"],
-	"screenTo": 12
-}, {
-	"heading": "Me (thinking): All right, help should be on the way now. I think I should do something else.",
-	"choices": [{
-		"label": "Help another person to the emergency exit",
-		"screenTo": 7
-	}, {
-		"label": "Head straight to the emergency exit",
-		"screenTo": -2,
-		"endMessage": "You did it! You managed to survive the terrorist attack."
-	}]
-}, {
-	"heading": "You perform CPR. Someone brings over an AED.",
-	"text": "Time passed, what now?",
-	"choices": [{
-		"label": "Continue doing CPR",
-		"screenTo": 13
-	}, {
-		"label": "Use the AED",
-		"screenTo": 10
-	}]
-}, {
-	"heading": "In the first carriage, you hear a booming roar coming from the middle carriages. You are momentarily thrown off your feet. You hear screams while you begin to be engulfed in darkness.",
-	"text": "Me: (thinking): \"What is going on? What should I do?\"",
-	"choices": [{
-		"label": "Go and check what happened",
-		"screenTo": 4
-	}, {
-		"label": "Stay in the middle carriage",
-		"screenTo": 15
-	}]
-}, {
-	"heading": "In the first carriage, you hear a booming roar coming from the middle carriages. You are momentarily thrown off your feet. You hear screams while you begin to be engulfed in darkness.",
-	"text": "You waited for a while, but nothing happened",
-	"choices": [{
-		"label": "Go and check what happened",
-		"screenTo": 4
-	}, {
-		"label": "Stay in the middle carriage",
-		"screenTo": 15
-	}]
-}, {
-	"heading": "\"Next station, Tan Kah Kee\", you hear from the announcement system. Suddenly, you hear a loud explosion.",
-	"choices": [{
-		"label": "Next",
+	},
+	{
+		"label": "No",
 		"screenTo": 3
 	}],
-	"backgroundImgPath": "images/explosion.jpeg"
-}]
+	
+	"backgroundImgPath": "images/bedroom.jpeg"
+	},{
+	"heading": "Da Ming gets ready to go to school and leaves energetically! (100% move speed)",
+	"choices": [{
+		"label": "Yay!",
+		"screenTo": 4
+	}]
+	},{
+	"heading": "Da Ming gets caned 10 times and now his back is sore! (50% move speed)",
+	"choices": [{
+		"label": "Aww...",
+		"screenTo": 4
+	}]
+	},{
+		"heading": "A person enters the MRT station and behaves suspiciously. Da Ming, engrossed in playing Mobile Legends, doesn't notice the suspicious behavior. The suspicious person places a black backpack on a seat, catching Da Ming's attention. Da Ming tries to locate the person, eventually finding him and informing him about the forgotten bag. The person ignores Da Ming and flees, leaving him feeling dejected. Da Ming returns to the platform and hears an announcement urging passengers to report suspicious individuals or items to staff or use the emergency communication button. What should Da Ming do now?",
+	"choices": [{
+		"label": "Ignore it",
+		"screenTo": -1,
+		"endMessage": "The bomb explodes and you die."
+	},{
+		"label": "Report it!!! So sus!!!",
+		"screenTo": 5
+	}],
+	"backgroundImgPath": "images/mrtstation.jpeg"
+	},{
+	"heading": "Station staff removes it and you successfully enter the MRT train!",
+	"choices": [{
+		"label": "Yay!",
+		"screenTo": 6
+	}],
+	"backgroundImgPath": "images/mrtstation.jpeg"
+	},{
+	"heading": "Da Ming boards the train. As the announcer says “Next station: Tan Kah Kee 陈嘉庚” Boom!!!!!!! A bomb explodes on the train. Da Ming fell to the ground with a loud thud. There is rubble everywhere, blood sparsely spewed over the ground. You notice people rushing for the exit, but the old men sitting on the reserved seats need help. You have to help them to the green exit!",
+	"choices": [{
+		"label": "Oh no...",
+		"screenTo": -3
+	}],
+	"backgroundImgPath": "images/mrtstation.jpeg"
+	},
+	{
+	"heading": "You did it! You survived the explosion and lived to tell the tale! In school, everyone is proud of you that you helped the old men and were vigilant.",
+	"choices": [{
+		"label": "Hooray!!",
+		"screenTo": -2
+	}]	
+	}
+]

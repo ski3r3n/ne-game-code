@@ -1,20 +1,92 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100%;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    font-size: larger;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: white !important;
+    background-color: rgb(0, 0, 46) !important;
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+.container {
+    background-color: rgba(135, 135, 135, 0.164);
+    border-radius: 20px;
+}
+div div div div {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: white !important;
+    background-color: rgb(0, 0, 46) !important;
+}
+#player {
+    background-color: green !important;
+    width: 2vw !important;
+    height: 2vw !important;
+    position: absolute !important;
+}
+#wall1 {
+    position: absolute;
+    width: 90vw;
+    height: 1vw;
+    background-color: red !important;
+    top: 92%;
+    left: 10%;
+}
+#wall2 {
+    position: absolute;
+    width: 90vw;
+    height: 1vw;
+    background-color: red !important;
+    top: 6%;
+    left: 10%;
+}
+#bgimg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.oldman {
+    position: absolute;
+
+    width: 9vw;
+    height: 9vw;
+}
+#oldman1 {
+    top: 3vw;
+    left: 9vw;
+}
+#oldman2 {
+    top: 37vw;
+    left: 9vw;
+}
+#oldman3 {
+    top: 3vw;
+    left: 80vw;
+}
+#oldman4 {
+    top: 37vw;
+    left: 80vw;
+}
+#goal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(135, 135, 135, 0.164) !important;
+    width: 6vw;
+    height: 100vh;
 }
