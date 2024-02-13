@@ -48,8 +48,7 @@ function App() {
                 <Text mt="5">
                     Storyline made by the NE Council
                     <br />
-                    Website made by Kie Ren Siew, Weiyu, Bang Zhen, twin #1 Lin,
-                    pavement and twin #2 Lin from EC3
+                    Website made by Derrick, Kie Ren and Chaw Zhe from EC^3
                 </Text>
             </Container>
         );
