@@ -63,7 +63,7 @@
 	}],
 	"backgroundImgPath": "images/explosion.jpeg"
 	},
-	{
+{
 	"heading": "He did it! He survived the explosion and lived to tell the tale! Da Ming, being the gigachad he is, used his jawline to carve his way out of the rubble and exited the train tunnel. He calmly makes his way to school.",
 	"choices": [{
 		"label": "Hooray!!",
@@ -114,3 +114,4 @@
 	}]	
 	},
 ]
+
