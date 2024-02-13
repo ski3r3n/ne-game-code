@@ -119,7 +119,13 @@ function MrtGameScene() {
             console.log(helpedoldmen);
         }
 
-        if (offsetOverlap(player, document.getElementById("oldman2"))) {
+        if (
+            offsetOverlap(
+                player,
+                document.getElementById("oldman2"),
+                document.getElementById("goal")
+            )
+        ) {
             document.getElementById("oldman2").style.top = player.style.top;
             document.getElementById("oldman2").style.left = player.style.left;
         }
@@ -169,9 +175,9 @@ function MrtGameScene() {
 
         setInterval(function () {
             testformove();
-        }, 1);
+        }, 0);
     }
-    setTimeout(function () {
+    setInterval(function () {
         workplease();
     }, 0);
 
