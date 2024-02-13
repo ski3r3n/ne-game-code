@@ -41,15 +41,30 @@
 	}],
 	"backgroundImgPath": "images/mrtstation.jpeg"
 	},{
-	"heading": "Da Ming boards the train. As the announcer says “Next station: Tan Kah Kee 陈嘉庚” Boom!!!!!!! A bomb explodes on the train. Da Ming fell to the ground with a loud thud. There is rubble everywhere, blood sparsely spewed over the ground. You notice people rushing for the exit, but the old men sitting on the reserved seats need help. You have to help them to the green exit!",
+	"heading": "Da Ming boards the train. As the announcer says “Next station: Tan Kah Kee 陈嘉庚”... ",
 	"choices": [{
-		"label": "Oh no...",
-		"screenTo": -3
+		"label": "Continue",
+		"screenTo": 7
 	}],
 	"backgroundImgPath": "images/mrtstation.jpeg"
+	},{
+	"heading": "Boom!!!!!!! A bomb explodes on the train. Da Ming fell to the ground with a loud thud. There is rubble everywhere, blood sparsely spewed over the ground. He notices people rushing for the exit, but the old men sitting on the reserved seats need help. He has to help them to the exit!",
+	"choices": [{
+		"label": "Continue",
+		"screenTo": 8
+	}],
+	"backgroundImgPath": "images/explosion.jpeg"
 	},
 	{
-	"heading": "You did it! You survived the explosion and lived to tell the tale! In school, everyone is proud of you that you helped the old men and were vigilant.",
+	"heading": "Use arrow keys to control Da Ming's character. ",
+	"choices": [{
+		"label": "Continue",
+		"screenTo": -3
+	}],
+	"backgroundImgPath": "images/explosion.jpeg"
+	},
+	{
+	"heading": "He did it! He survived the explosion and lived to tell the tale! In school, everyone is proud of him that he helped the old men and were vigilant.",
 	"choices": [{
 		"label": "Hooray!!",
 		"screenTo": -2
