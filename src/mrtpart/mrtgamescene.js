@@ -119,13 +119,7 @@ function MrtGameScene() {
             console.log(helpedoldmen);
         }
 
-        if (
-            offsetOverlap(
-                player,
-                document.getElementById("oldman2"),
-                document.getElementById("goal")
-            )
-        ) {
+        if (offsetOverlap(player, document.getElementById("oldman2")) {
             document.getElementById("oldman2").style.top = player.style.top;
             document.getElementById("oldman2").style.left = player.style.left;
         }
