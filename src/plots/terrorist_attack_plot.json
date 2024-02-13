@@ -56,7 +56,7 @@
 	"backgroundImgPath": "images/explosion.jpeg"
 	},
 	{
-	"heading": "Use arrow keys to control Da Ming's character. ",
+	"heading": "Use arrow keys to control Da Ming's character. Bring the old men to the exit, which is the green part on the left.",
 	"choices": [{
 		"label": "Continue",
 		"screenTo": -3
