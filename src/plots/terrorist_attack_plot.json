@@ -64,10 +64,53 @@
 	"backgroundImgPath": "images/explosion.jpeg"
 	},
 	{
-	"heading": "He did it! He survived the explosion and lived to tell the tale! In school, everyone is proud of him that he helped the old men and were vigilant.",
+	"heading": "He did it! He survived the explosion and lived to tell the tale! Da Ming, being the gigachad he is, used his jawline to carve his way out of the rubble and exited the train tunnel. He calmly makes his way to school.",
 	"choices": [{
 		"label": "Hooray!!",
-		"screenTo": -2
+		"screenTo": 10
 	}]	
-	}
+	},
+	{
+	"heading": "Things go on as usual, lessons go by, and during Math class, the announcement “dry ground, dry ground” plays over the PA. But, there was no drill planned that week?",
+	"choices": [{
+		"label": "It must be a terrorist attack! Quick, Da Ming should run for his life!!!!",
+		"screenTo": -1,
+		"endMessage": "Da Ming run out of the classroom and bump headfirst into the terrorist. After an awkward exchange and some small talk, Da Ming is shot."
+	}, {
+		"label": "Wait for further instruction",
+		"screenTo": 11
+	}]
+	},
+	{
+	"heading": "Da Ming and his class continues waiting for further announcement. They are now ordered to evacuate. But his math teacher shouts: EVERYONE STAY HERE! ALL OF YOU MUST FINISH YOUR COMPLETING THE SQUARE WORKSHEET BEFORE YOU CAN GO!!!!!!!!!!!!!!!!!!",
+	"choices": [{
+		"label": "Continue grinding math problems as a diligent student",
+		"screenTo": -1,
+		"endMessage": "Five minutes later, the terrorist enters the room. Reading the tense situation and Da Ming's scary math teacher, he sits down and starts doing math problem sums. However, he quickly remembers his goal and Da Ming misteriously passes away while doing algebraic manipulation."
+	}, {
+		"label": "Plan a rebellion against his math teacher's instructions and begin lockdown measures",
+		"screenTo": 12,
+	}]
+	},
+	{
+	"heading": "Da Ming's math teacher will scold him next lesson but he will have a much higher chance of living. What does Da Ming do now?",
+	"choices": [{
+		"label": "Arrange the tables into the shape of an amogus to confuse and hypnotize the terrorist",
+		"screenTo": -1,
+		"endMessage": "The terrorist laughs while holding the class at gunpoint and proceeds to sweep the classroom. Everyone dies"
+	},{
+		"label": "Close the windows and blinds, and exert Da Ming's power as math rep to force everyone under the tables",
+		"screenTo": 13,
+	}, {
+		"label": "Do Rock you in class repeatedly as a form of intimidation against terrorists",
+		"screenTo": -1,
+		"endMessage": "The terrorist is impressed with their school spirit! Unfortunately everyone was so enthusiastic everyone got a fatal ankle sprain while stomping."
+	}]
+	}, {
+	"heading": "The terrorist walks past Da Ming's class. However, you soon hear gunshots in the distance... Eventually, Da Ming's class is told to evacuate the school.",
+	"choices": [{
+		"label": "Continue",
+		"screenTo": 14
+	}]	
+	},
 ]
