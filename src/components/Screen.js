@@ -96,7 +96,7 @@ function Screen({ currentScreen, endMessage, onUpdateScreen, plotFile }) {
                     w="100%"
                     h="100%"
                     colorScheme="blue"
-                    onClick={() => onChoiceClicked({ screenTo: 7 })}>
+                    onClick={() => onChoiceClicked({ screenTo: 8 })}>
                     Click to skip/finish
                 </Button>
             </>
