@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { useEffect } from "react";
 import MrtGameScene from "../mrtpart/mrtgamescene.js";
+import { helpedoldmen } from "../mrtpart/mrtgamescene.js";
 import { Field, Form, Formik } from "formik";
 
 import terroristAttackPlot from "../plots/terrorist_attack_plot.json";

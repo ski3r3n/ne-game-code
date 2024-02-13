@@ -1,7 +1,8 @@
 import { energy } from "../components/Screen.js";
-var helpedoldmen = 0;
+export var helpedoldmen;
 function MrtGameScene() {
     var eg = energy;
+    var helpedoldmen = 0;
 
     console.log(eg);
     var xpos = 50;
@@ -32,47 +33,47 @@ function MrtGameScene() {
         }
         function testformove() {
             if (curkey[37] /*left*/) {
-                player.style.left = xpos - 0.00004 * eg + "vw";
+                player.style.left = xpos - 0.0008 * eg + "vw";
                 if (
                     offsetOverlap(player, document.getElementById("wall1")) ||
                     offsetOverlap(player, document.getElementById("wall2"))
                 ) {
-                    player.style.left += 0.00004 * eg + "vw";
+                    player.style.left += 0.0008 * eg + "vw";
                 } else {
-                    xpos -= 0.00004 * eg;
+                    xpos -= 0.0008 * eg;
                 }
             }
             if (curkey[39] /*right*/) {
-                player.style.left = xpos + 0.00004 * eg + "vw";
+                player.style.left = xpos + 0.0008 * eg + "vw";
                 if (
                     offsetOverlap(player, document.getElementById("wall1")) ||
                     offsetOverlap(player, document.getElementById("wall2"))
                 ) {
-                    player.style.left -= 0.00004 * eg + "vw";
+                    player.style.left -= 0.0008 * eg + "vw";
                 } else {
-                    xpos += 0.00004 * eg;
+                    xpos += 0.0008 * eg;
                 }
             }
             if (curkey[38]) {
-                player.style.top = ypos - 0.00004 * eg + "vw";
+                player.style.top = ypos - 0.0008 * eg + "vw";
                 if (
                     offsetOverlap(player, document.getElementById("wall1")) ||
                     offsetOverlap(player, document.getElementById("wall2"))
                 ) {
-                    player.style.top += 0.00004 * eg + "vw";
+                    player.style.top += 0.0008 * eg + "vw";
                 } else {
-                    ypos -= 0.00004 * eg;
+                    ypos -= 0.0008 * eg;
                 }
             }
             if (curkey[40]) {
-                player.style.top = ypos + 0.00004 * eg + "vw";
+                player.style.top = ypos + 0.0008 * eg + "vw";
                 if (
                     offsetOverlap(player, document.getElementById("wall1")) ||
                     offsetOverlap(player, document.getElementById("wall2"))
                 ) {
-                    player.style.top -= 0.00004 * eg + "vw";
+                    player.style.top -= 0.0008 * eg + "vw";
                 } else {
-                    ypos += 0.00004 * eg;
+                    ypos += 0.0008 * eg;
                 }
             }
         }
@@ -104,89 +105,100 @@ function MrtGameScene() {
                 return false;
             }
         }
-        if (offsetOverlap(player, document.getElementById("oldman1"))) {
-            document.getElementById("oldman1").style.top = player.style.top;
-            document.getElementById("oldman1").style.left = player.style.left;
-        }
-        if (
-            offsetOverlap(
-                document.getElementById("oldman1"),
-                document.getElementById("goal")
-            )
-        ) {
-            document.getElementById("oldman1").style.top = "-100vh";
-            helped();
-            console.log(helpedoldmen);
-        }
 
-        if (
-            offsetOverlap(
-                player,
-                document.getElementById("oldman2"),
-                document.getElementById("goal")
-            )
-        ) {
-            document.getElementById("oldman2").style.top = player.style.top;
-            document.getElementById("oldman2").style.left = player.style.left;
-        }
-        if (
-            offsetOverlap(
-                document.getElementById("oldman2"),
-                document.getElementById("goal")
-            )
-        ) {
-            document.getElementById("oldman2").style.top = "-100vh";
-            helped();
-            console.log(helpedoldmen);
-        }
+        function oldmanchecker() {
+            if (offsetOverlap(player, document.getElementById("oldman1"))) {
+                document.getElementById("oldman1").style.top = player.style.top;
+                document.getElementById("oldman1").style.left =
+                    player.style.left;
+            }
+            if (
+                offsetOverlap(
+                    document.getElementById("oldman1"),
+                    document.getElementById("goal")
+                )
+            ) {
+                document.getElementById("oldman1").style.top = "-100vh";
+                helped();
+                console.log(helpedoldmen);
+            }
+            if (
+                offsetOverlap(
+                    player,
+                    document.getElementById("oldman2"),
+                    document.getElementById("goal")
+                )
+            ) {
+                document.getElementById("oldman2").style.top = player.style.top;
+                document.getElementById("oldman2").style.left =
+                    player.style.left;
+            }
+            if (
+                offsetOverlap(
+                    document.getElementById("oldman2"),
+                    document.getElementById("goal")
+                )
+            ) {
+                document.getElementById("oldman2").style.top = "-100vh";
+                helped();
+                console.log(helpedoldmen);
+            }
 
-        if (offsetOverlap(player, document.getElementById("oldman3"))) {
-            document.getElementById("oldman3").style.top = player.style.top;
-            document.getElementById("oldman3").style.left = player.style.left;
-        }
-        if (
-            offsetOverlap(
-                document.getElementById("oldman3"),
-                document.getElementById("goal")
-            )
-        ) {
-            document.getElementById("oldman3").style.top = "-100vh";
-            helped();
-            console.log(helpedoldmen);
-        }
+            if (offsetOverlap(player, document.getElementById("oldman3"))) {
+                document.getElementById("oldman3").style.top = player.style.top;
+                document.getElementById("oldman3").style.left =
+                    player.style.left;
+            }
+            if (
+                offsetOverlap(
+                    document.getElementById("oldman3"),
+                    document.getElementById("goal")
+                )
+            ) {
+                document.getElementById("oldman3").style.top = "-100vh";
+                helped();
+                console.log(helpedoldmen);
+            }
 
-        if (offsetOverlap(player, document.getElementById("oldman4"))) {
-            document.getElementById("oldman4").style.top = player.style.top;
-            document.getElementById("oldman4").style.left = player.style.left;
-        }
-        if (
-            offsetOverlap(
-                document.getElementById("oldman4"),
-                document.getElementById("goal")
-            )
-        ) {
-            document.getElementById("oldman4").style.top = "-100vh";
-            helped();
-            console.log(helpedoldmen);
+            if (offsetOverlap(player, document.getElementById("oldman4"))) {
+                document.getElementById("oldman4").style.top = player.style.top;
+                document.getElementById("oldman4").style.left =
+                    player.style.left;
+            }
+            if (
+                offsetOverlap(
+                    document.getElementById("oldman4"),
+                    document.getElementById("goal")
+                )
+            ) {
+                document.getElementById("oldman4").style.top = "-100vh";
+                helped();
+                console.log(helpedoldmen);
+            }
         }
         function helped() {
             helpedoldmen += 1;
         }
 
         setInterval(function () {
+            oldmanchecker();
             testformove();
-        }, 0);
+            if (helpedoldmen === 4) {
+                document.getElementById("highlight").style.visibility =
+                    "visible";
+            }
+        }, 16);
     }
-    setInterval(function () {
+    setTimeout(function () {
         workplease();
-    }, 0);
-
+    }, 16);
     return (
         <>
             <img id="bgimg" alt="oh" src={require("./best.png")}></img>
             <div id="player"></div>
             <div id="goal"></div>
             <div id="wall1"></div>
+            <div id="highlight"></div>
             <div id="wall2"></div>
             <img
                 id="oldman1"
@@ -211,4 +223,5 @@ function MrtGameScene() {
         </>
     );
 }
+
 export default MrtGameScene;
