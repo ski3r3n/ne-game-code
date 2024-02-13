@@ -186,6 +186,9 @@ function MrtGameScene() {
             if (helpedoldmen === 4) {
                 document.getElementById("highlight").style.visibility =
                     "visible";
+            } else {
+                document.getElementById("highlight").style.visibility =
+                    "hidden";
             }
         }, 16);
     }
