@@ -175,9 +175,9 @@ function MrtGameScene() {
 
         setInterval(function () {
             testformove();
-        }, 0);
+        }, 1000/60);
     }
-    setInterval(function () {
+    setTimeout(function () {
         workplease();
     }, 0);
 
