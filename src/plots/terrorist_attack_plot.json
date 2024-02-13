@@ -89,7 +89,7 @@
 		"endMessage": "Five minutes later, the terrorist enters the room. Reading the tense situation and Da Ming's scary math teacher, he sits down and starts doing math problem sums. However, he quickly remembers his goal and Da Ming misteriously passes away while doing algebraic manipulation."
 	}, {
 		"label": "Plan a rebellion against his math teacher's instructions and begin lockdown measures",
-		"screenTo": 12,
+		"screenTo": 12
 	}]
 	},
 	{
@@ -100,7 +100,7 @@
 		"endMessage": "The terrorist laughs while holding the class at gunpoint and proceeds to sweep the classroom. Everyone dies"
 	},{
 		"label": "Close the windows and blinds, and exert Da Ming's power as math rep to force everyone under the tables",
-		"screenTo": 13,
+		"screenTo": 13
 	}, {
 		"label": "Do Rock you in class repeatedly as a form of intimidation against terrorists",
 		"screenTo": -1,
@@ -112,6 +112,6 @@
 		"label": "Continue",
 		"screenTo": 14
 	}]	
-	},
+	}
 ]
 
