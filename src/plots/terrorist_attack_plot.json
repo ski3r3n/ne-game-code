@@ -116,7 +116,7 @@
 		"heading": "What does Da Ming do next?",
 		"choices": [{
 			"label": "Wedge chairs in front of the door to block intruders",
-			"screenTo": 15,
+			"screenTo": 15
 		}, {
 			"label": "Sing Cruel Summer in class repeatedly as a form of protest against Singapore's weather.",
 			"screenTo": -1,
@@ -130,11 +130,11 @@
 		"heading": "Suddenly, Da Ming sees his friend pulling out his phone. This gave him an idea. What does he do?",
 		"choices": [{
 			"label": "Get his friend to notify the authorities of the terrorist attack via SGSecure",
-			"screenTo": -1,
+			"screenTo": -2,
 			"endMessage": "Good job! The police are notified and they quickly subdue the terrorist. Everyone is saved! This is the good ending."
 		}, {
-			"label": "Turn his phone to silent mode"
-			"screenTo": 16,
+			"label": "Turn his phone to silent mode",
+			"screenTo": 16
 		}, {
 			"label": "Scold his friend for taking out his phone in such an intense situation",
 			"screenTo": -1,
@@ -181,7 +181,7 @@
 			"screenTo": -1,
 			"endMessage": "Congrats! You made it to the end and survived, saving a fellow victim in the process. You are celebrated as a hero in your community and the woman gives you a million dollars for saving her life."
 		}, {
-			"lable": "Her neck looks slightly slanted. She must need a good crack in her spine. Da Ming should help her with that"
+			"lable": "Her neck looks slightly slanted. She must need a good crack in her spine. Da Ming should help her with that",
 			"screenTo": -1,
 			"endMessage": "Her spine now looks like a bent plastic straw. Congratulations on homicide! Da Ming is taken away by the police."
 		}]	
