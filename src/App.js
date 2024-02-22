@@ -48,7 +48,9 @@ function App() {
                 <Text mt="5">
                     Storyline made by the NE Council
                     <br />
-                    Website made by Derrick, Kie Ren and Chaw Zhe from EC^3
+                    Website made by Derrick, Kie Ren from EC³
+                    <br />
+                    Original website by Yaw Chur Zhe, formerly from EC³ and now HCIRS
                 </Text>
             </Container>
         );
